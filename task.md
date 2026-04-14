@@ -1,0 +1,21 @@
+# Portfolio Build Tasks
+
+- `[x]` **Phase 1: Project Setup**
+  - `[x]` Initialize Next.js project with Tailwind CSS.
+  - `[x]` Configure `tailwind.config.ts` per design tokens.
+  - `[x]` Set up Inter font in `layout.tsx` and `globals.css`.
+- `[x]` **Phase 2: Components Implementation**
+  - `[x]` Create `NavBar.tsx` with layout and hover states.
+  - `[x]` Create `ProfileCard.tsx` with custom tags.
+  - `[x]` Create `MagneticFieldPattern.tsx` with mousemove interactivity.
+  - `[x]` Create `PortfolioToggle.tsx`.
+  - `[x]` Create `ProjectCard.tsx`.
+- `[x]` **Phase 3: Page Assembly**
+  - `[x]` Define mock project data in `projects.ts`.
+  - `[x]` Construct Hero Section in `page.tsx` (100vw, no max-width).
+  - `[x]` Construct Project Grid Section in `page.tsx` (centered, 1112px max).
+  - `[x]` Construct Name Banner Section in `page.tsx` (oversized typographic bleed).
+- `[x]` **Phase 4: Polish & Verification**
+  - `[x]` Verify component layout matches reference design constraints.
+  - `[x]` Validate the magnetic field interaction.
+  - `[x]` Address any visual discrepancies.
