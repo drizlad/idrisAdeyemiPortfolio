@@ -17,6 +17,7 @@ export default function NameBanner() {
           aspectRatio: "1393 / 142" 
         }}
       >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 
           src="/projects/IDRIS.svg" 
           alt="Idris Adeyemi" 

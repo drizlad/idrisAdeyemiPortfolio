@@ -1,12 +1,12 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
 
+const options = ['Ai built portfolio', 'View pre ai portfolio'];
+
 export default function PortfolioToggle() {
   const [active, setActive] = useState('Ai built portfolio');
   const [pillStyle, setPillStyle] = useState({ left: '2px', width: '0px' });
   const containerRef = useRef<HTMLDivElement>(null);
-
-  const options = ['Ai built portfolio', 'View pre ai portfolio'];
 
   useEffect(() => {
     // Update pill position based on active item
