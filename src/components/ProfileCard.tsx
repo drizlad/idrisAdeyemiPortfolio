@@ -26,20 +26,20 @@ export default function ProfileCard() {
 
       <div className="bg-[#f7f7f8] border border-[var(--color-border-action)] rounded-[var(--radius-card-inner)] pt-[16px] px-[16px] pb-[16px] flex flex-col gap-[20px] flex-1">
 
-        <div className="flex items-start justify-between gap-[16px] md:gap-[24px]">
+        <div className="flex flex-col md:flex-row md:items-start justify-between gap-[8px] md:gap-[24px]">
           <h2 className="font-sans font-medium text-[24px] text-[#14151a] m-0 break-words leading-tight">
             Idris Adeyemi
           </h2>
 
           <button
             onClick={handleCopy}
-            className="flex items-center gap-[8px] text-[15px] text-[#6b7280] font-sans hover:text-[#14151a] transition-colors bg-transparent border-none cursor-pointer p-0 m-0"
+            className="flex items-center gap-[8px] text-[16px] font-medium text-[#6b7280] font-sans hover:text-[#14151a] transition-colors bg-transparent border-none cursor-pointer p-0 m-0"
           >
             <span>Drizlad@gmail.com</span>
             {copied ? (
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
             ) : (
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             )}
           </button>
         </div>

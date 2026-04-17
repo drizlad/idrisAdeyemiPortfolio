@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Fintech Design System",
-    description: "A comprehensive design system for build fintech product",
+    description: "A comprehensive design system for building fintech product",
     gridImage: "/projects/design-system.png",
     buttonLabel: "Coming Soon",
     href: "#",
